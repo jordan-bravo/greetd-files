@@ -2,4 +2,4 @@
 vt = 1
 
 [default_session]
-command = "tuigreet --cmd sway"
+command = "tuigreet --greeting 'Stay humble, stack sats.' --remember --time --env XDG_SESSION_TYPE=wayland --env XDG_SESSION_DESKTOP=sway --env XDG_CURRENT_DESKTOP=sway --env MOZ_ENABLE_WAYLAND=1 --env QT_QPA_PLATFORM=wayland --env SDL_VIDEODRIVER=wayland --env _JAVA_AWT_WM_NONREPARENTING=1 --cmd 'dbus-run-session sway'"
