@@ -1,5 +1,9 @@
 [terminal]
 vt = 1
 
+[initial_session]
+command = "dbus-run-session /usr/local/bin/sway-run"
+user = "jordan"
+
 [default_session]
 command = "tuigreet --theme 'border=magenta;text=cyan;prompt=green;time=red;action=blue;button=yellow;container=black;input=red' --greeting 'Stay humble, stack sats.' --remember --time --cmd 'dbus-run-session /usr/local/bin/sway-run'"
